@@ -86,7 +86,7 @@
                                                 <a href="#">Language</a>
                                             </li>
                                         </ul>
-                                        <a href="sign-in.html" class="axil-btn btn-bg-primary">Login</a>
+                                        <a href="index.php?act=login" class="axil-btn btn-bg-primary">Login</a>
                                         <div class="reg-footer text-center">No account yet? <a href="sign-up.html"
                                                 class="btn-link">REGISTER HERE.</a></div>
                                     </div>
@@ -120,7 +120,7 @@
                             </div>
                             <ul class="mainmenu">
                                 <li>
-                                    <a href="index.html">Trang chủ</a>
+                                    <a href="index.php?act=home">Trang chủ</a>
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="shop.html">Cửa hàng</a>
@@ -132,7 +132,7 @@
                                     </ul>
                                 </li>
 
-                                <li><a href="about-us.html">Giới thiệu</a></li>
+                                <li><a href="index.php?act=about">Giới thiệu</a></li>
                                 <li>
                                     <a href="blog.html">Tin tức</a>
                                 </li>

@@ -17,14 +17,14 @@
     ============================================ -->
 
     <!-- Bootstrap CSS -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/css.php';
- ?>
+    <?php require_once __DIR__ . '/paris/css.php';
+    ?>
 
 </head>
 
 
 <body>
-    
+
     <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
@@ -32,9 +32,9 @@
 
     <!-- Start Header -->
     <header class="header axil-header header-style-4">
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/header.php';
- ?>
-    </div>
+        <?php require_once __DIR__ . '/paris/header.php';
+        ?>
+        </div>
         <!-- End Mainmenu Area  -->
     </header>
 
@@ -42,15 +42,15 @@
 
         <!-- Start Slider Area -->
         <div class="axil-main-slider-area main-slider-style-7 bg_image--8">
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/header-refix.php'; ?>
+            <?php require_once __DIR__ . '/paris/header-refix.php'; ?>
         </div>
         <!-- End Slider Area -->
 
         <!-- Start Axil Product Poster Area  -->
         <div class="axil-poster axil-section-gap pb--0">
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/nav.php'; ?>
+            <?php require_once __DIR__ . '/paris/nav.php'; ?>
         </div>
-        
+
         <!-- End Axil Product Poster Area  -->
 
         <!-- Start New Arrivals Product Area  -->
@@ -1462,7 +1462,7 @@
     <!-- Start Footer Area  -->
     <footer class="axil-footer-area footer-style-2">
         <!-- Start Footer Top Area  -->
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/footer.php'; ?>
+        <?php require_once __DIR__ . '/paris/footer.php'; ?>
         <!-- End Copyright Area  -->
     </footer>
     <!-- End Footer Area  -->
@@ -1807,7 +1807,7 @@
         </div>
     </div>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/js.php'; ?>
+    <?php require_once __DIR__ . '/paris/js.php'; ?>
 
 
 </body>
