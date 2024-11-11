@@ -2,7 +2,7 @@
 include "../model/pdo.php";
 include "../model/taikhoan.php";
 include "header.php";
-require_once '../config/middleware.php';
+require_once '../middleware/middleware.php';
 require_once  '../controller/products/index.php';
 checkAdmin();
 if (isset($_GET['act'])) {
