@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Book Store</title>
+    <title>Admin Doji Store</title>
     <link rel="shortcut icon" href="../upload/mau-logo-nha-sach.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../view/css/style.css">
     <link rel="stylesheet" href="../view/css/account.css">
@@ -25,12 +25,10 @@
     </div>
 
     <div class="nav">
-        <h3 class="bst">DOJI STORE</h3>
-        <img src="../upload/mau-logo-nha-sach.jpg" alt="" width="210px" style="margin: 25px 0px;">
-
+       <a href="index.php"> <img src="../view/images/logo/logo.webp" width="150px" style="margin-left: 20px;" alt=""></a>
 
         <a href="index.php"> Trang Chủ</a>
-        <a href="index.php?act=listdm"> Quản lý danh mục</a>
+        <a href="index.php?act=list_category"> Quản lý danh mục</a>
         <a href="index.php?act=listsp"> Quản lý sản phẩm</a>
         <a class="nav-link" href="?act=donhang">Quản lý đơn hàng</a>
         <a href="index.php?act=dskh">Khách hàng</a>                 

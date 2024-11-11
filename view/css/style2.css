@@ -413,7 +413,9 @@ header .icons #menu-bars {
     margin: 1rem 0;
 }
 
-.img2 {}
+.img2 {
+    
+}
 
 .dishes .box-container .box h3 {
     color: var(--blaack);
