@@ -25,23 +25,22 @@
     </div>
 
     <div class="nav">
-       <a href="index.php"> <img src="../view/images/logo/logo.webp" width="150px" style="margin-left: 20px;" alt=""></a>
+        <a href="index.php"> <img src="../view/images/logo/logo.webp" width="150px" style="margin-left: 20px;" alt=""></a>
 
         <a href="index.php"> Trang Chủ</a>
         <a href="index.php?act=list_category"> Quản lý danh mục</a>
-        <a href="index.php?act=listsp"> Quản lý sản phẩm</a>
+        <a href="index.php?act=products-list"> Quản lý sản phẩm</a>
         <a class="nav-link" href="?act=donhang">Quản lý đơn hàng</a>
-        <a href="index.php?act=dskh">Khách hàng</a>                 
-        <a href="index.php?act=thongke">Thống kê</a>    
-        <a href="index.php?act=dsbl">Bình luận</a>         
+        <a href="index.php?act=dskh">Khách hàng</a>
+        <a href="index.php?act=thongke">Thống kê</a>
+        <a href="index.php?act=dsbl">Bình luận</a>
 
 
         <!-- <div class="adm">
             <a href="index.php?act=dangxuat">Đăng Xuất <i class="fa-solid fa-arrow-right-from-bracket fa-lg"></i></a>
             <div class=""> -->
 
-            <!-- <i class="fa-solid fa-user fa-lg"></i> -->
-            </div>
-        </div>
+        <!-- <i class="fa-solid fa-user fa-lg"></i> -->
     </div>
-   
+    </div>
+    </div>

@@ -53,7 +53,10 @@
                     <div class="axil-signin-form">
                         <h3 class="title">Sign in to eTrade.</h3>
                         <p class="b2 mb--55">Enter your detail below</p>
-                        <form class="singin-form">
+                        <?php if (isset($message)) {
+                            echo "<p class='text-danger'>$message</p>";
+                        } ?>
+                        <form class="singin-form" action="index.php?act=login" method="POST">
                             <div class="form-group">
                                 <label>Email</label>
                                 <input type="email" class="form-control" name="email" placeholder="annie@example.com">

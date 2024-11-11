@@ -36,7 +36,7 @@
                 <div class="col-md-6">
                     <div class="singin-header-btn">
                         <p>Already a member?</p>
-                        <a href="sign-in.html" class="axil-btn btn-bg-secondary sign-up-btn">Sign In</a>
+                        <a href="index.php?act=login" class="axil-btn btn-bg-secondary sign-up-btn">Sign In</a>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                         <h3 class="title">I'm New Here</h3>
                         <p class="b2 mb--55">Enter your detail below</p>
                         <?php if (isset($message)) {
-                            echo "<p>$message</p>";
+                            echo "<p class='text-danger'>$message</p>";
                         } ?>
                         <form class="singin-form" action="index.php?act=register" method="POST">
                             <div class="form-group">

@@ -322,3 +322,71 @@ footer {
 /* end footer */
 
 /* end admin */
+
+
+
+/* Đặt kiểu cho các phần tử trong trang */
+.main {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Định dạng cho tiêu đề */
+.frm_title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho bảng */
+.frm_content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Định dạng cho các ô trong bảng */
+.frm_content table th, 
+.frm_content table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Định dạng cho các th (tiêu đề bảng) */
+.frm_content table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Định dạng cho các hàng trong bảng khi hover */
+.frm_content table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Định dạng cho các liên kết (ví dụ: xóa sản phẩm) */
+.frm_content table td a {
+    color: #020c1d;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Thêm hiệu ứng khi hover lên liên kết */
+.frm_content table td a:hover {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+/* Tạo khoảng cách dưới cho mỗi dòng */
+.mb10 {
+    margin-bottom: 10px;
+}
+
+/* Định dạng cho các ô trong bảng khi không có nội dung */
+.frm_content table td img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
