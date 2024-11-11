@@ -17,7 +17,8 @@
     ============================================ -->
 
     <!-- Bootstrap CSS -->
-    <?php include "../duan1/client/paris/css.php" ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/css.php';
+ ?>
 
 </head>
 
@@ -31,7 +32,9 @@
 
     <!-- Start Header -->
     <header class="header axil-header header-style-4">
-        <?php include "../duan1/client/paris/header.php" ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/header.php';
+ ?>
+    </div>
         <!-- End Mainmenu Area  -->
     </header>
 
@@ -39,13 +42,13 @@
 
         <!-- Start Slider Area -->
         <div class="axil-main-slider-area main-slider-style-7 bg_image--8">
-        <?php include "../duan1/client/paris/header-refix.php" ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/header-refix.php'; ?>
         </div>
         <!-- End Slider Area -->
 
         <!-- Start Axil Product Poster Area  -->
         <div class="axil-poster axil-section-gap pb--0">
-        <?php include "../duan1/client/paris/nav.php" ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/nav.php'; ?>
         </div>
         
         <!-- End Axil Product Poster Area  -->
@@ -1459,7 +1462,7 @@
     <!-- Start Footer Area  -->
     <footer class="axil-footer-area footer-style-2">
         <!-- Start Footer Top Area  -->
-        <?php include "../duan1/client/paris/footer.php" ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/footer.php'; ?>
         <!-- End Copyright Area  -->
     </footer>
     <!-- End Footer Area  -->
@@ -1804,7 +1807,7 @@
         </div>
     </div>
 
-    <?php include "../duan1/client/paris/js.php" ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/DUAN/client/paris/js.php'; ?>
 
 
 </body>

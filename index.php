@@ -1,3 +1,3 @@
 <?php
-require_once "./client/master.php"
+require_once "./client/master.php";
 ?>
