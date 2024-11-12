@@ -74,7 +74,7 @@
                                         <span class="title">QUICKLINKS</span>
                                         <ul>
                                             <li>
-                                                <a href="my-account.html">My Account</a>
+                                                <a href="index.php?act=me">My Account</a>
                                             </li>
                                             <li>
                                                 <a href="#">Initiate return</a>
