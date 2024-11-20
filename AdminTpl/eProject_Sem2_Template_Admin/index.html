@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ /* Thiết lập kiểu dáng cho menu */
+.menu-left {
+  background-color: white; /* Nền trắng */
+  width: 200px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.menu-left ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-left ul li {
+  margin: 10px 0;
+}
+
+.menu-left ul li a {
+  color: black; /* Chữ màu đen */
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: white; /* Nền trắng mặc định */
+}
+
+.menu-left ul li a:hover {
+  background-color: #f0f0f0; /* Màu nền khi hover */
+}
+
+/* Trạng thái active */
+.menu-left ul li.active a {
+  background-color: #a6c8ff; /* Màu nền xanh dương nhạt */
+  color: black; /* Chữ màu đen */
+}
+
+</style>
+
+<body>
+    <nav class="menu-left">
+        <ul>
+          <li><a href="#" class="menu-item">Home</a></li>
+          <li><a href="#" class="menu-item">About</a></li>
+          <li><a href="#" class="menu-item">Services</a></li>
+          <li><a href="#" class="menu-item">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <script>
+        // Lắng nghe sự kiện click trên các menu item
+    const menuItems = document.querySelectorAll('.menu-item');
+    
+    menuItems.forEach(item => {
+      item.addEventListener('click', function() {
+        // Xóa class 'active' khỏi tất cả các item
+        menuItems.forEach(item => item.parentElement.classList.remove('active'));
+    
+        // Thêm class 'active' cho item được click
+        item.parentElement.classList.add('active');
+      });
+    });
+    
+    </script>
+</body>
+</html>
